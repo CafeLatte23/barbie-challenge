@@ -1,0 +1,293 @@
+@import url("https://fonts.cdnfonts.com/css/barbie");
+body {
+  margin: 0 auto;
+  line-height: normal;
+  background: linear-gradient(45deg, #ee9ca7 0%, #ffdde1 100%);
+}
+.creator {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+}
+
+:root {
+  /* fonts */
+  --font-lato: Lato;
+
+  /* font sizes */
+  --font-size-3xl: 22px;
+  --font-size-sm: 14px;
+
+  /* Colors */
+  --color-darkslategray: #333;
+  --color-black: #000;
+  --color-gray: rgba(255, 255, 255, 0.8);
+
+  /* Gaps */
+  --gap-13xl: 32px;
+  --gap-base: 16px;
+
+  /* Paddings */
+  --padding-5xl: 24px;
+  --padding-base: 16px;
+
+  /* Border radiuses */
+  --br-13xl: 32px;
+  --br-base: 16px;
+}
+
+.image-icon {
+  position: absolute;
+  top: 0;
+  border-radius: 10px;
+  left: 67px;
+  width: 499.85px;
+  height: 688px;
+  object-fit: cover;
+}
+.card-child {
+  position: relative;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+}
+.take-it-from {
+  position: relative;
+  display: inline-block;
+  width: 159px;
+  flex-shrink: 0;
+}
+.card {
+  position: absolute;
+  top: 166px;
+  left: 376px;
+  border-radius: var(--br-base);
+  background-color: var(--color-gray);
+  border: 1px solid var(--color-black);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xl);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-base);
+}
+.testimonial {
+  position: relative;
+  display: inline-block;
+  width: 164px;
+  height: 74px;
+  flex-shrink: 0;
+}
+.card1 {
+  position: absolute;
+  top: 313px;
+  left: -5px;
+  border-radius: var(--br-base);
+  background-color: var(--color-gray);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 270px;
+  height: 98px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xl);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-base);
+}
+.hero-image {
+  position: absolute;
+  top: 125px;
+  left: 469px;
+  width: 665px;
+  height: 688px;
+}
+.div {
+  position: relative;
+  font-weight: 600;
+}
+.countries-where-shecodes {
+  position: relative;
+  font-size: var(--font-size-sm);
+  display: inline-block;
+  width: 165px;
+  height: 45px;
+  flex-shrink: 0;
+}
+.parent {
+  border-radius: var(--br-base);
+  background-color: #d2eaf4;
+  box-shadow: 8px 8px 0#333;
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  height: 72px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-base);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-base);
+}
+.women-hold-coding {
+  position: relative;
+  font-size: var(--font-size-sm);
+  display: inline-block;
+  width: 149px;
+
+  flex-shrink: 0;
+}
+.group {
+  border-radius: var(--br-base);
+  background-color: #efc48f;
+  box-shadow: 8px 8px 0#333;
+  border: 1px solid var(--color-black);
+  height: 70px;
+  padding: var(--padding-base);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-base);
+}
+.cards,
+.container,
+.group {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.container {
+  border-radius: var(--br-base);
+  background-color: #eecfcd;
+  box-shadow: 8px 8px 0#333;
+  border: 1px solid var(--color-black);
+  max-width: 600px;
+  height: 72px;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-base);
+}
+.cards {
+  position: absolute;
+  top: 873px;
+  left: 179px;
+  height: 70px;
+  padding: 0 0 6px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  font-size: var(--font-size-3xl);
+}
+.find-the-perfect {
+  position: relative;
+  letter-spacing: 0.01em;
+  font-weight: 300;
+  font-size: 68px;
+  line-height: 68px;
+  font-weight: 600;
+  font-family: "Barbie", sans-serif;
+  display: inline-block;
+  width: 359px;
+}
+.learn-grow-code {
+  position: relative;
+  letter-spacing: 0.01em;
+  font-family: "Barbie", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.barbie-can-do {
+  font-weight: 700;
+}
+.barbie-can-do-container {
+  position: relative;
+  font-size: 24px;
+  display: inline-block;
+  width: 363px;
+  font-family: var(--font-lato);
+}
+.barbieland {
+  position: relative;
+  line-height: 18px;
+  font-weight: 500;
+  font-family: "Barbie", sans-serif;
+  font-size: 32px;
+}
+.content,
+.primary-button {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.primary-button {
+  border-radius: 40px;
+  background-color: var(--color-darkslategray);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-5xl) 56px;
+  font-size: var(--font-size-3xl);
+  color: #fff;
+  border: #6c4343;
+  box-shadow: 6px 4px 4px #c46352;
+  transition: all 150ms ease-in-out;
+  cursor: pointer;
+}
+.primary-button:hover {
+  background: #ffb0fe;
+  color: #c3195d;
+}
+.content {
+  position: absolute;
+  top: 219px;
+  left: 64px;
+  flex-direction: column;
+  gap: var(--gap-13xl);
+  font-size: 18px;
+}
+.icon {
+  position: relative;
+  border-radius: var(--br-13xl);
+  width: 202px;
+  height: 264px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.images-right {
+  position: absolute;
+  top: 94px;
+  left: 1176px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.soft-star-icon {
+  position: absolute;
+  top: 144px;
+  left: 386px;
+  width: 139px;
+  height: 150px;
+  object-fit: cover;
+}
+.barbie-landing-page {
+  position: relative;
+  background: linear-gradient(180deg, #fff, rgba(255, 255, 255, 0));
+  width: 100%;
+  height: 1024px;
+  overflow: auto;
+  margin: 0 auto;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-darkslategray);
+  font-family: var(--font-lato);
+}
