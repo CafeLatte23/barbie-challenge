@@ -15,8 +15,8 @@ body {
   --font-lato: Lato;
 
   /* font sizes */
-  --font-size-3xl: 22px;
-  --font-size-sm: 14px;
+  --font-size-3xl: 24px;
+  --font-size-sm: 12.3px;
 
   /* Colors */
   --color-darkslategray: #333;
@@ -76,7 +76,8 @@ body {
   position: relative;
   display: inline-block;
   width: 164px;
-  height: 74px;
+  height: 50px;
+
   flex-shrink: 0;
 }
 .card1 {
@@ -107,11 +108,11 @@ body {
   position: relative;
   font-weight: 600;
 }
-.countries-where-shecodes {
+.compliment-barbie {
   position: relative;
   font-size: var(--font-size-sm);
   display: inline-block;
-  width: 165px;
+  width: 180px;
   height: 45px;
   flex-shrink: 0;
 }
@@ -129,12 +130,19 @@ body {
   justify-content: center;
   gap: var(--gap-base);
 }
-.women-hold-coding {
+.cool-pretty {
   position: relative;
   font-size: var(--font-size-sm);
   display: inline-block;
   width: 149px;
-
+  flex-shrink: 0;
+}
+.women-can-do {
+  position: relative;
+  font-size: var(--font-size-sm);
+  display: inline-block;
+  width: 180px;
+  height: 45px;
   flex-shrink: 0;
 }
 .group {
@@ -170,7 +178,7 @@ body {
 .cards {
   position: absolute;
   top: 873px;
-  left: 179px;
+  left: 210px;
   height: 70px;
   padding: 0 0 6px;
   align-items: flex-start;
@@ -178,7 +186,7 @@ body {
   gap: var(--gap-13xl);
   font-size: var(--font-size-3xl);
 }
-.find-the-perfect {
+.party-barbie {
   position: relative;
   letter-spacing: 0.01em;
   font-weight: 300;
@@ -189,7 +197,7 @@ body {
   display: inline-block;
   width: 359px;
 }
-.learn-grow-code {
+.party {
   position: relative;
   letter-spacing: 0.01em;
   font-family: "Barbie", sans-serif;
@@ -290,4 +298,10 @@ body {
   font-size: var(--font-size-sm);
   color: var(--color-darkslategray);
   font-family: var(--font-lato);
+}
+
+footer {
+  text-align: center;
+  display: block;
+  margin: auto;
 }
